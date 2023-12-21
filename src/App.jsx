@@ -16,11 +16,20 @@ import { ProtectedRoute } from './layout/ProtectedRoute'
 import { DanagePatients } from './pages/DanagePatients'
 import { EditProfile } from './pages/EditProfile'
 import { ChangePassword } from './pages/ChangePassword'
+
+import 'dotenv/config'
+
 // axios.defaults.baseURL = 'http://localhost:3026/api'
+
 axios.defaults.baseURL = 'https://apv-backend-dev-dtah.4.us-1.fl0.io/api'
 
 
 function App() {
+  
+  // console.log(process.env.VITE_BACKEND_URL);
+  
+
+
   return (
     <BrowserRouter className="">
       <AuthProvider>

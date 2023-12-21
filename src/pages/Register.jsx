@@ -38,7 +38,7 @@ export const Register = () => {
 
     try {
       //hacemos la petición
-      const resp = await axios.post('http://localhost:3026/api/veterinarians/register', {name, email, password,})
+      const resp = await axios.post('/veterinarians/register', {name, email, password,})
 
       setAlert({
         msg: 'Creado correctamente, Revisa tu email',
