@@ -41,11 +41,14 @@ export const Register = () => {
       const resp = await axios.post('/veterinarians/register', {name, email, password,})
 
       setAlert({
-        msg: 'Creado correctamente, Revisa tu email',
+        msg: 'Creado correctamente, ya puedes iniciar sesión',
         error: false
       })
 
-      // navigate('/perfil')
+
+      setTimeout(() => {
+        navigate('/')
+      }, 1500)
       console.log(resp);
 
     } catch (error) {
