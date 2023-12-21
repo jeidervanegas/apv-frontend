@@ -107,10 +107,10 @@ export const Login = () => {
             className="block text-center my-5 text-gray-500"
             to='/register'
             >¿No tienes una cuenta? Regístrate</Link>
-          <Link 
+          {/* <Link 
             className="block text-center my-5 text-gray-500"
             to='/forgot-password'
-            >Olvidé mi contraseña</Link>
+            >Olvidé mi contraseña</Link> */}
         </nav>
       </div>
     </>
