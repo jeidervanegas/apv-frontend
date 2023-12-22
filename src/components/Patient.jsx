@@ -39,7 +39,7 @@ export const Patient = ({ patient }) => {
         <button
           onClick={() => setEdit(patient)}
           type="button"
-          className="py-2 px-5 bg-indigo-600 hover:bg-indigo-700 transition-colors text-white uppercase font-bold rounded-lg"
+          className="py-2 px-7 bg-indigo-600 hover:bg-indigo-700 transition-colors text-white uppercase font-bold rounded-lg"
         >Editar</button>
         <button
           onClick={() => deletePatient(_id)}
