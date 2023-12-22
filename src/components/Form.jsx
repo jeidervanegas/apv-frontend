@@ -119,7 +119,7 @@ export const Form = () => {
 
         <div className="mb-5">
           <label htmlFor="date" className="text-gray-700 uppercase font-bold">
-            Decha de Alta
+            Fecha de Alta
           </label>
           <input
             id="date"
