@@ -18,9 +18,9 @@ import { EditProfile } from './pages/EditProfile'
 import { ChangePassword } from './pages/ChangePassword'
 
 
-axios.defaults.baseURL = 'http://localhost:3026/api'
+// axios.defaults.baseURL = 'http://localhost:3026/api'
 
-// axios.defaults.baseURL = 'https://apv-backend-dev-dtah.4.us-1.fl0.io/api'
+axios.defaults.baseURL = 'https://apv-backend-dev-dtah.4.us-1.fl0.io/api'
 
 
 
